@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rakoon</title>
+	 <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<video id="video" controls src="https://moorthy-g.github.io/files/video/video_640x360_5mb.mp4" ></video>
+<canvas id="canvas"></canvas>
+
+<div  class="layer-0"></div>
+<div id="x-axis" class="axis"></div>
+<div id="y-axis" class="axis"></div>
+<div id="planet-1" class="planet layer-1">
+
+    <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 362.11 437.5"><defs><style>.cls-1{fill:url(#Dégradé_sans_nom_20);}.cls-2{fill:#eae5d3;}.cls-3{fill:url(#Dégradé_sans_nom_24);}</style><linearGradient id="Dégradé_sans_nom_20" x1="-1" y1="106" x2="359.11" y2="106" gradientUnits="userSpaceOnUse"><stop offset="1" stop-color="#3b4a5d"/><stop offset="1" stop-color="#eae5d3"/></linearGradient><linearGradient id="Dégradé_sans_nom_24" x1="-1" y1="281.52" x2="359.11" y2="281.52" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#000c2a"/><stop offset="1" stop-color="#3b4a5d"/></linearGradient></defs><title>Rocher1</title><path class="cls-1" d="M0,197.5a1,1,0,0,1-.63-.23A1,1,0,0,1-1,196.5l.5-155a1,1,0,0,1,.85-1l174-26h.15a.9.9,0,0,1,.28,0l51.82,15,46.82-4h.08a1,1,0,0,1,.46.11l46,24a1,1,0,0,1,.39.37L359,113.52a1,1,0,0,1-.32,1.36L290,158.42a1.06,1.06,0,0,1-.54.16,1.21,1.21,0,0,1-.37-.07l-109-43.34L89.06,179.32a1,1,0,0,1-.37.16L.2,197.48Z" transform="translate(2 -13.5)"/><path class="cls-2" d="M174.5,15.5l52,15,47-4,46,24L358.11,114,289.5,157.58,180,114,88.49,178.5,0,196.5l.5-155,174-26m0-2-.3,0-174,26a2,2,0,0,0-1.7,2l-.5,155a2,2,0,0,0,.73,1.56A2,2,0,0,0,0,198.5a1.81,1.81,0,0,0,.4,0l88.49-18a2.18,2.18,0,0,0,.75-.32l90.63-63.84,108.49,43.14a2.11,2.11,0,0,0,.74.14,2,2,0,0,0,1.07-.31l68.61-43.54a2,2,0,0,0,.64-2.73L321.21,49.46a2,2,0,0,0-.78-.73l-46-24a2,2,0,0,0-.93-.23h-.17l-46.63,4-51.65-14.9a2,2,0,0,0-.55-.08Z" transform="translate(2 -13.5)"/><path class="cls-3" d="M.5,449.5a1,1,0,0,1-1-1l-.5-252a1,1,0,0,1,.8-1l88.28-18,91.34-64.34A1,1,0,0,1,180,113a1,1,0,0,1,.37.07l109,43.35,68.17-43.27a1,1,0,0,1,.54-.15,1,1,0,0,1,.63.23,1,1,0,0,1,.3,1.13L316.21,224.19V289L353,448.78a1,1,0,0,1-.19.84,1,1,0,0,1-.78.38Z" transform="translate(2 -13.5)"/><path class="cls-2" d="M358.11,114l-42.9,110v65.06L352,449,.5,448.5,0,196.5l88.49-18L180,114l109.5,43.54L358.11,114M180,112a2,2,0,0,0-1.15.36L87.68,176.62-.4,194.54a2,2,0,0,0-1.6,2l.5,252a2,2,0,0,0,2,2L352,451h0a2,2,0,0,0,1.56-.75,2,2,0,0,0,.39-1.7L317.21,288.84V224.38L360,114.77a2,2,0,0,0-2.94-2.42l-67.74,43L180.74,112.18A2.11,2.11,0,0,0,180,112Z" transform="translate(2 -13.5)"/></svg>
+</div>
+
+<div id="planet-2" class="planet layer-2">
+
+
+    <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1338.05 479.02"><defs><style>.cls-1{fill:url(#Dégradé_sans_nom_5);}.cls-2{fill:#eae5d3;}.cls-3{fill:url(#Dégradé_sans_nom_24);}.cls-4{fill:none;stroke:#eae5d3;stroke-miterlimit:10;stroke-width:2px;}</style><linearGradient id="Dégradé_sans_nom_5" x1="670.46" y1="278.93" x2="647.59" y2="-860.71" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3b4a5d"/><stop offset="1" stop-color="#eae5d3"/></linearGradient><linearGradient id="Dégradé_sans_nom_24" x1="651.99" y1="258.94" x2="1345.52" y2="258.94" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#000c2a"/><stop offset="1" stop-color="#3b4a5d"/></linearGradient></defs><title>Rocher2</title><path class="cls-1" d="M9.5,485.5V76.64L184.57,50.48l52,15,47.1-4L329.55,85.4,441.4,39.66,612.91,24.07,752.51,8.49l.13,0c2.28.32,230.6,32.13,436.05,32.13,52.33,0,99.34-2.06,139.71-6.14l2.26-.22-1.36,1.82c-37.64,50.52-63.93,71-64.19,71.19l-.21.16-61.46,9.07-78.93-22-118.9,35.38,35.67,28.73L798.17,295.27,654,485.5Z" transform="translate(-8.5 -7.48)"/><path class="cls-2" d="M752.5,9.5s228.28,32.14,436.19,32.14c48.81,0,96.46-1.77,139.81-6.14-38,51-64,71-64,71l-61,9-79-22-121,36,36,29-242,136-144,190H10.5V77.5l174-26,52,15,47-4,46,24L441.64,40.64,613,25.07,752.5,9.5m0-2-.25,0L612.78,23.08,441.46,38.65l-.3,0-.28.12L329.6,84.3,284.43,60.73l-.52-.27-.58,0-46.63,4-51.65-14.9-.41-.12-.44.06-174,26-1.7.26V486.5h646l.6-.79L798.84,296l241.64-135.8,2.58-1.44-2.31-1.86-33-26.61,116.8-34.75L1203,117.43l.41.11.42-.06,61-9,.52-.08.41-.31c.26-.21,26.66-20.76,64.38-71.39l2.72-3.65-4.52.46c-40.34,4.07-87.31,6.13-139.61,6.13-205.38,0-433.63-31.8-435.91-32.12l-.25,0Z" transform="translate(-8.5 -7.48)"/><path class="cls-3" d="M652,485.5,796.83,293.73l240.89-135.38-36.33-29.27,123.1-36.62,79.07,22,60.47-8.92c3.72-3.74,50.34-50.67,63.64-70.61l1.71-2.58,7.12,189,9,57.16-16,55.08V485.5Z" transform="translate(-8.5 -7.48)"/><path class="cls-2" d="M1328.5,35.5l7,186,9,57-16,55v151H654l143.5-190,242-136-36-29,121-36,79,22,61-9s50-50,64-71m1.77-6.25-3.43,5.14c-13,19.52-58.19,65.1-63.29,70.23l-59.92,8.84L1125,91.57l-.56-.15-.55.16-121,36-3.65,1.09,3,2.39,33.69,27.14L796.52,292.76l-.36.2-.26.33-143.5,190L650,486.5H1330.5V333.78l15.92-54.72.13-.43-.07-.44-9-56.88-7-185.89-.23-6.17Z" transform="translate(-8.5 -7.48)"/><polyline class="cls-4" points="1031 151.02 962 309.92 961.5 377.32"/><polyline class="cls-4" points="1195 108.02 1221.56 148.56 1213.39 207.02 1221.56 264.17"/><line class="cls-4" x1="1256" y1="99.02" x2="1247.1" y2="186.09"/><polyline class="cls-4" points="1320 326.02 1287.95 429.41 1287.95 476.52"/><polyline class="cls-4" points="744 2.02 830.93 33.15 892.71 33.15"/><polyline class="cls-4" points="995 122.02 961.5 103.62 909.05 103.62"/><polyline class="cls-4" points="1116 86.02 1178.67 90.34 1229.73 76.05"/><polyline class="cls-4" points="433.14 33.15 359.61 83.2 341.54 112.82"/><polyline class="cls-4" points="789 287.02 710.41 254.77 586.33 267.52 486.75 326.02"/></svg>
+</div>
+
+<div id="planet-3" class="planet layer-3">
+
+    <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1636.12 711.2"><defs><style>.cls-1{fill:url(#Dégradé_sans_nom_41);}.cls-2{fill:#eae5d3;}</style><linearGradient id="Dégradé_sans_nom_41" x1="842.39" y1="769.6" x2="802.45" y2="-64.56" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1b2945"/><stop offset="0.54" stop-color="#3b4a5d"/><stop offset="0.62" stop-color="#3f4d5f"/><stop offset="0.69" stop-color="#495767"/><stop offset="0.76" stop-color="#5b6773"/><stop offset="0.82" stop-color="#757d84"/><stop offset="0.88" stop-color="#969a9a"/><stop offset="0.94" stop-color="#bdbeb5"/><stop offset="1" stop-color="#eae5d3"/></linearGradient></defs><title>Paysage</title><polygon class="cls-1" points="1244.89 698.13 1189.86 674.11 1037.42 658.66 235.88 462.11 92.75 429.08 1.56 377.4 63.48 306.34 196.41 235.38 323.41 30.37 380 1.07 442.67 18.25 488.79 70.39 580.44 137.14 730.25 137.14 911.17 188.11 1086.85 156.99 1092.83 179.92 1183.09 157.11 1222.05 165.1 1244.95 157.14 1635.12 157.14 1635.12 710.17 1244.89 698.13"/><path class="cls-2" d="M392,19l62,17,46,52,92,67H742l181,51,175-31,6,23,91-23,39,8,23-8h389V726l-389-12-55-24-152.52-15.47L248,478,105,445,15,394l61-70,133-71L336,48l56-29m-.23-2.14-.69.36-56,29-.49.26-.29.47L207.58,251.49,75.06,322.24l-.33.17-.24.28-61,70-1.61,1.84L14,395.74l90,51,.26.14.28.07,143,33L1049,676.48l.14,0h.14L1201.49,692l54.71,23.87.35.16h.39l389,12,2.06.06V173H1256.66l-.32.11-22.48,7.82L1195.4,173,1195,173l-.44.11-89.08,22.51-5.49-21.07-.47-1.79-1.82.32L923.1,204,742.54,153.08l-.26-.08H592.65l-91.3-66.49L455.5,34.67l-.4-.44-.57-.16-62-17-.76-.21Z" transform="translate(-11.88 -16.86)"/></svg>
+
+</div>
+</body>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.7/TweenMax.min.js'></script>
+<script  src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script  src="js/index.js"></script>
+
+</html>

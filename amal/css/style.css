@@ -1,0 +1,103 @@
+html,
+body {
+
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0px 0px;
+ 
+}
+
+.axis {
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  z-index: 100;
+  display: none;
+}
+
+.planet {
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+}
+
+#background {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: -20%;
+  left: -10%;
+  position: absolute;
+  right: -10%;
+  top: -20%;
+}
+
+#x-axis {
+  bottom: -50%;
+  left: 50%;
+  top: -50%;
+  width: 1px;
+}
+
+#y-axis {
+  left: 0;
+  top: 50%;
+  right: 0;
+  height: 1px;
+}
+
+#planet-1 {
+  width: 20%;
+  background-image: url(Rocher1.svg);
+  z-index: 13;
+}
+
+#planet-2 {
+  top: 52%;
+  right: 20%;
+  width: 76%;
+  background-image: url(Rocher2.svg);
+  z-index: 12;
+}
+#planet-3 {
+  width: 63%;
+  background-image: url("Paysage.svg");
+  z-index: 10;
+  right: 0px;
+  top: 10%;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+video {
+
+  width: 90%;
+  margin: 0 auto;
+}
+canvas{
+
+  width:50%;
+  position:relative;
+}
+button {
+  padding: 5px 20px;
+  margin: 5px;
+}
+#counter {
+  border-radius: 60px;
+  border: 5px solid;
+  font: 50px/100px sans-serif;
+  color: #333;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  display: none;
+}
